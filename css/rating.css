@@ -1,0 +1,91 @@
+
+
+svg.svg-inline--fa.fa-star.fa-w-18.star-icon-rating {
+    color: #EA2A24;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.track-package-row h6 {
+	color: #0000008a;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.rating-track-package-jumbotron {
+	border: 0;
+	background-color: #eadfcb;
+}
+
+.rating-track-package-jumbotron h6 {
+	text-align: left;
+	font-size: 15px;
+}
+.rating-progress-bar-row p{
+        /* display: flex; */
+    color: #EA2A24;
+    position: absolute;
+    right: 20px;
+    top: 7rem;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    border: 1px solid #EA2A24;
+    padding: 8px;
+    border-radius: 30px;
+}
+.rating-progress-bar-row p:hover {
+    background-color: #EA2A24;
+    color: #ffffff;
+}
+
+.rating-progress-bar-row .progress-bar {
+    background-color: #EA2A24;
+}   
+
+.rating-progress-bar-row .progress {
+    background-color: #eadfcb;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.rating-progress-bar-text h6 {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #0000008a;
+    font-weight: 600;
+}
+
+.rating-progress-bar-text .middle-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-progress-bar-text .right-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rating-shipment-details-jumbotron {
+    padding: 2rem 2rem 1.1rem 2rem;
+}
+
+.rating-shipment-red-text {
+    float: left !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+@media (max-width: 575.98px){
+    .track-package-row h6{
+        margin-top: 2rem;
+    }
+    .section-right-side-scrollbar img{
+        width: 100%;
+    }
+}

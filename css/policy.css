@@ -1,0 +1,55 @@
+li.baisa-policy-list {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: LEFT;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-transform: UPPERCASE;
+}
+.baisa-policy-list a{
+     color: #0000008a;
+    text-decoration: none;
+}
+.baisa-policy-list a.active{
+    color: #EA2A24;
+}
+.baisa-policy-list a:hover{
+    color: #EA2A24;
+}
+p.policy-text{
+    font-size: 1rem;
+}
+a.red-link{
+    color: #EA2A24;
+    text-decoration: none;
+}
+h6.policy-subheading{
+  font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px; 
+     color: #0000008a;
+}
+ul .policy-text {
+    font-size: 1rem;
+    color: #0000008a;
+    list-style:disc;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 575.98px){
+    .baisa-policylist{
+        display: none;
+    }
+    h1.outstory-section-mainheading{
+        margin-top: 3rem;
+}
+
+
+    }
+}

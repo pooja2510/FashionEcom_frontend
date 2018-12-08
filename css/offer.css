@@ -1,0 +1,140 @@
+/* left side - menu */
+.offer-container .sidenav {
+    width: 120%;
+    top: 20px;
+    left: 10px;
+    background: red;
+    overflow-x: hidden;
+    background-color: transparent;
+    margin-top: -10px;
+    margin-left: -15px;
+    margin-bottom: -25px;
+    padding-right: 15px;
+    padding-left: 8px;
+}
+
+.offer-container .sidenav a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0000008a;
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+    border-bottom: 1px solid #EA2A24;
+    letter-spacing: 1px;
+}
+
+.offer-container .sidenav a:hover,
+.offer-container .sidenav a.active {
+    color: #EA2A24;
+    background-color: transparent;
+    border-bottom: 2px solid #EA2A24;
+    font-weight: 600;
+}
+
+.offer-container .sidebar-content1 {
+    background-color: #eadfcb;
+    padding: 5rem 2.5rem;
+}
+
+.offer-container .sidebar-content1 h2 {
+    color: #0000008a;
+    margin-top: -40px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+
+/* Right Side- images */
+
+.offer-img{
+    transition: transform 0.5s;
+}
+.main-content2:hover .offer-img{
+    transform: scale(1.04);
+}
+
+.offer-container .main-content2 .one {
+    margin-top: 10px;
+    color: #0000008a;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.offer-container .main-content2 .two {
+    color: #EA2A24;
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+.main-content2:hover .baisa-offer-caption{
+    color: #EA2A24;
+}
+
+/* wishlist heart */
+.wishlist-heart,
+.wishlist-heart2 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 1.4rem;
+    color: #EA2A24;
+    cursor: pointer;
+}
+
+.main-content2:hover .wishlist-heart {
+    display: block;
+}
+
+
+/* Media Queries */
+@media (max-width: 992.98px){
+    .offer-container .sidebar-content1{
+        position: static;
+    } 
+    .offer-container .sidenav a{
+        font-size: 12px
+    }
+}
+
+@media (max-width: 767.98px) {
+    
+    .offer-container .sidenav {
+        width: 100%;
+    }
+    .offer-container .sidebar-content2 img {
+        margin-bottom: 20px;
+    }
+    .row.side-menu-row {
+        display: flex;
+        justify-content: center;
+    }
+    .offer-container .sidebar-content1{
+        position: static;
+    } 
+}
+
+@media (max-width: 575.98px) {
+    .offer-container .sidebar-content1 {
+        position: static;
+    }   
+
+}
+@media (min-width: 1023.98px) and (max-width: 1024px){
+    .offer-container .sidebar-content1 {
+           top: 27rem;
+    bottom: 38rem; 
+    }
+}

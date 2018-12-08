@@ -1,0 +1,125 @@
+
+.my-order-container {
+    border: 1px solid #d6c7c78a;
+   background-color: rgba(248, 239, 220, 0.69);
+    margin-bottom: 8rem;
+}
+h5.track-order{
+    color: #0000008a;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+span.user-order-id{
+    border: 1px solid #EF2A24;
+    background-color: #EF2A24;
+    font-size: 14px;
+    letter-spacing: 1px;
+     padding: 0.7rem 3rem;
+    color: #FFFFFF;
+    line-height: 1.9;
+    margin-left: 2px; 
+}
+.track-order-button{
+   background: #EF2A24;
+    border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #FFFFFF;
+    line-height: 1.9;
+    margin-left: 25.3rem;
+    outline-color: transparent;
+}
+.track-order-button:hover{
+    transform: scale(1.05);
+  background-color: #EF2A24;
+}
+.track-order-button:active {
+    outline: none;
+    border: none;
+}
+.track-order-button:focus {outline:0;}
+.my-order-jumbotron {
+	border: 0;
+
+	-webkit-box-shadow: 5px 5px 7px 0px rgb(240, 240, 240);
+	-moz-box-shadow: 5px 5px 7px 0px rgb(240, 240, 240);
+	box-shadow: 5px 5px 7px 0px rgb(240, 240, 240);
+
+	background-color: #eadfcb;
+
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	border-radius: 1px;
+
+	padding: 1rem 0 1rem 0;
+
+	color: #0000008a;
+}
+
+.my-order-page-img img {
+	border: 0;
+	width: 85%;
+	-webkit-box-shadow: 3px 3px 6px 0px rgb(203, 194, 177);
+	-moz-box-shadow: 3px 3px 6px 0px rgb(203, 194, 177);
+	box-shadow: 3px 3px 6px 0px rgb(203, 194, 177);
+}
+
+.my-order-container .small-p {
+	font-size: .7rem;
+    font-weight: 500;
+}
+
+.my-order-container .order-date {
+	font-size: 1rem;
+}
+
+.my-order-container .my-order-rupee {
+	font-size: 1.59rem;
+	padding-left: 1.3px;
+	font-style: normal;
+}
+
+.my-order-container .brown-text {
+    color: #0000008a;
+    font-weight: 600;
+}
+
+.my-order-container .title {
+	font-size: 1rem;
+    color: #0000008a;
+    text-transform: uppercase;
+}
+
+.my-order-container .sup {
+	font-size: .6rem;
+    top: -8px;
+}
+
+p.red-text-1 {
+    color: #0000008a;
+    font-size: 0.8rem;
+}
+
+/* media queries */
+@media (max-width: 575.98px){
+    .empty-col{
+        display: none;
+    }
+    .track-order-button{
+            margin-left: 0;
+    margin-top: 1rem;
+    }
+    .my-order-page-img img{
+        width: 100%;
+    }
+    .my-order-container{
+        margin-bottom: 4rem;
+    }
+}

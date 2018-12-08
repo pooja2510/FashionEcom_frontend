@@ -1,0 +1,471 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.section-page-heading h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #0000008a;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.filter-label,
+.path-row p {
+    font-size: 1rem;
+}
+
+/*path*/
+.path-row p {
+    color: #EA2A24;
+}
+
+.path-row p i {
+    font-size: .8rem;
+    color: #060606;
+}
+
+/*title row*/
+.title-row {
+    margin-bottom: -6px;
+}
+
+@media(max-width: 768px) {
+    .title-row {
+        margin-bottom: 10px;
+    }
+}
+
+/*filter*/
+.filter-title {
+    color: #EA2A24;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.filter-label {
+    color: #0000008a !important;
+}
+
+
+
+/*checkbox*/
+.filter-label {
+    display: block;
+    /* position: relative; */
+    padding-left: 8px;
+    margin-bottom: 3px;
+    padding-top: 7px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.filter-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.tic {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    height: 19px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid #878787;
+}
+
+.tic:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.filter-label input:checked ~ .tic:after {
+    display: block;
+}
+
+.filter-label .tic:after {
+    left: 6px;
+    top: 0;
+    width: 7px;
+    height: 13px;
+    border: 1px solid #332E2D;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(43deg);
+    -ms-transform: rotate(43deg);
+    transform: rotate(43deg);
+}
+
+/*page*/
+.page-title {
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.arrow-img {
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: block;
+    bottom: 23px;
+    left: 263px;
+}
+button.section-addtobag {
+    padding: 0.2rem 5.3rem;
+    font-size: 12px;
+    margin-left: 0;
+}
+.section-addtobag-div {
+    position: absolute;
+    bottom: 4.4rem;
+    opacity: 0.7;
+    left: 7px;
+    right: px;
+    width: 92%;
+    padding: 0.5rem;
+    display: none; 
+}
+.add-to-bag{
+    bottom: 4.7rem;
+}
+
+
+@media(max-width: 723px) {
+
+    .arrow-img {
+        bottom: -5px;
+        left: 7px;
+    }
+}
+
+@media(max-width: 575px) {
+    .page-title {
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 425px) {
+    .arrow-img {
+        left: 7px;
+        bottom: -6px;
+    }
+}
+
+/*card*/
+
+.section-card {
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 23px;
+    padding-top: 48px;
+}
+
+@media(max-width: 767px) {
+    .section-card {
+        padding-left: 0;
+    }
+}
+
+.section-card .card-body i {
+    font-size: 1rem;
+}
+
+.scrollbar-inner .wishlist-heart,
+.scrollbar-inner .wishlist-heart2 {
+    top: 60px;
+}
+
+display: none;
+
+.section-card-img.no-price-off-label {
+    margin-top: 0;
+}
+
+.section-card h5 {
+    color: #0000008a;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.85rem;
+}
+
+.section-card p {
+    color: #0000008a;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+}
+.section-card:hover .baisa-offer-caption p{
+    color: #EA2A24;
+}
+.section-card:hover .section-addtobag-div{
+    display: block;
+}
+
+
+/* filter dropdown*/
+.filter-dropdown select {
+    background-color: transparent;
+    border: 0;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px;
+    color: #0000008a;
+    margin-left: 8px;
+    position: relative;
+    top: -3px;
+    color: #0000008a;
+    border: 1px solid #0000008a;
+}
+
+.filter-dropdown select:focus {
+    outline: none;
+}
+
+/*card price off label*/
+
+.price-off-label-container {
+    padding: -4px;
+    z-index: 111;
+    float: right !important;
+}
+
+.price-off-label-circle {
+    color: #E8121D;
+    margin-top: -22px;
+    margin-right: -20px;
+    float: right;
+    font-size: 60px;
+}
+
+@media(max-width: 575px) {
+    .price-off-label-circle {
+        margin-right: -11px;
+    }
+
+    .price-off-label-text {
+        margin-right: -10px !important;
+    }
+}
+
+.price-off-label-text {
+    color: #FFEAF0 !important;
+    float: right;
+    clear: both;
+    margin-right: -13px;
+    margin-top: -55px;
+}
+
+/*next page link*/
+.section-page li.current {
+    color: #0000008a;
+    border: 1px solid #cccccc;
+    width: 30px;
+    background-color: #FFFFFF;
+    cursor: default;
+    text-align: center;
+}
+
+.section-page li {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.section-page a {
+    width: 25px;
+    color: #EA2A24;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+a.next {
+    color: #0000008a;
+}
+
+a.next:hover {
+    border: 1px solid #EA2A24;
+}
+
+
+.product-btn-colm {
+    margin-left: 11rem;
+}
+
+.section-right-side-scrollbar img {
+    width: 110%;
+}
+
+@media(max-width: 900px) {
+    .product-btn-colm {
+        margin-left: 7rem;
+    }
+}
+
+@media(max-width: 767px) {
+    .product-btn-colm {
+        margin-left: 0;
+    }
+}
+
+/*jaipuri lehengas*/
+
+.jaipuri-lehenga-img {
+    background-image: url(../img/section/lehenga.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section-lehengas-jumbotron {
+    background-color: #F6E0B7;
+    -webkit-box-shadow: 0px 3px 12px 1px rgba(230, 230, 230, 1);
+    -moz-box-shadow: 0px 3px 12px 1px rgba(230, 230, 230, 1);
+    box-shadow: 0px 3px 12px 1px rgba(230, 230, 230, 1);
+}
+
+.section-lehengas-jumbotron .text {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.section-lehengas-jumbotron h1 {
+    text-transform: uppercase;
+    color: #F2262B;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.section-lehengas-jumbotron p {
+    letter-spacing: 1px;
+    color: #797663;
+}
+
+/*scrollbar*/
+
+/*filter scrollbar*/
+.categories-scrollbar {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 18px;
+}
+
+.categories-scrollbar::-webkit-scrollbar {
+    width: 9px;
+    margin-left:
+        background-color: #EEEADD;
+}
+
+.categories-scrollbar::-webkit-scrollbar-track {
+    background-color: #F2EAD7;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+.categories-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #C33133;
+    border: 1px solid #61282A;
+}
+
+
+/*filter lists button*/
+
+.filter-list-btn {
+    /*background-color: #F6EDDC;*/
+    background-color: transparent;
+    height: 2.3rem;
+    padding-top: 7px;
+    margin-top: 1rem;
+}
+
+.filter-list-btn:focus {
+    box-shadow: 0 0 0;
+}
+
+.filter-form .card {
+    border: 0;
+}
+
+
+
+
+/* Scroll top */
+#scrollToTop {
+    background-color: #EA2A24;
+    position: fixed;
+    z-index: 999;
+    right: 30px;
+    bottom: 50px;
+    width: 50px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+#scrollToTop:hover {
+    background-color: #0000008a;
+}
+
+/* multiselect dropdown */
+.multiselect-dropdown-filter{
+    display: none;
+}
+button.multiselect{
+    background-color: #EA2A24;
+    color: #ffffff;
+    outline: none;
+}
+ul.multiselect-container li a{
+    color: #0000008a;
+}
+ul.multiselect-container{
+    width: 250px;
+    outline: none;
+}
+
+@media (max-width: 575.98px){
+    .filter-colm-border{
+        display: none;
+    }
+    #scrollToTop{
+        display: none;
+    }
+    .multiselect-dropdown-filter{
+    display: block;
+}
+     button.section-addtobag{
+       padding: 1px 28px; 
+    }
+    .section-addtobag-div{
+            bottom: 6rem;
+            left: 2px;
+    }
+    .section-page ol{
+        padding-left: 0;
+    }
+    svg.svg-inline--fa.fa-chevron-left.fa-w-10.similarprod-lefticon.sec-left-icon{
+        margin-left: 10px;
+    }
+    svg.svg-inline--fa.fa-chevron-right.fa-w-10.similarprod-righticon.sec-right-icon{
+        margin-left: 18px;
+    }
+    
+}

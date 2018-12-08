@@ -1,0 +1,245 @@
+/* common */
+.rupee-symbol-checkout {
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+
+.red-text {
+    color: #EF2A24;
+    font-style: normal;
+}
+/* image*/
+img.checkout-item-row-jumbotron-img {
+    width: 180px;
+    height: 260px;
+}
+/* discount jumbotron */
+.checkout-jumbotron {
+    background-color: #eadfcb;
+    border-radius: 0;
+    padding: 15px;
+}
+
+.checkout-jumbotron p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.checkout-jumbotron b {
+    color: #EF2A24;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* My shopping Bag */
+.checkout-item-row-jumbotron {
+    background-color: #eadfcb;
+    border-radius: 0;
+    border: 1px solid #eadfcb;
+    border-left: 0;
+}
+
+.rupee-symbol-red {
+    font-size: 15px;
+    position: relative;
+    top: -1px;
+}
+
+a.remove-item {
+    margin-left: 14.49rem;
+}
+
+.checkout-item-row-jumbotron {
+    background-color: #eadfcb;
+    padding-left: 0;
+    clear: both;
+}
+
+.checkout-item-row-jumbotron h6 {
+    color: #0000008a;
+}
+
+.checkout-item-row-jumbotron a {
+    color: #0000008a;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.wishlist-icon,
+.remove-icon {
+    font-size: 0.95rem;
+    margin-right: 5px;
+}
+
+.checkout-item-row-jumbotron .remove-line {
+    font-size: 1.1rem;
+    border-top: 1px solid #ef2a246e;
+    padding-top: 1rem;
+}
+
+.checkout-item-row h5 {
+    color: #0000008a;
+    font-size: 1.2rem;
+}
+
+.checkout-item-row .text-magenta {
+    color: #EF2A24;
+    font-style: normal;
+    float: right;
+}
+
+.checkout-item-row p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.checkout-item-row .checkout-title {
+    color: #0000008a;
+    font-size: 1.2rem;
+}
+
+.size-dropdown select,
+.qty-dropdown select {
+    background-color: transparent;
+    border: 0;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px;
+    background: #EF2A24;
+    color: #ffffff;
+    margin-left: 5px;
+    position: relative;
+    top: -3px;
+}
+
+.size-dropdown select:hover,
+.qty-dropdown select:hover {
+    background-color: #0000008a;
+    border: 0;
+}
+
+.size-dropdown select:focus,
+.qty-dropdown select:focus {
+    outline: none;
+}
+
+
+
+/*right side- checkout item*/
+.coupons-colm h5 {
+    color: #0000008a;
+    font-size: 1.1rem;
+}
+
+
+/*coupons*/
+.coupons-colm {
+    border-left: 1px solid #CBCBCB;
+}
+
+.chk-border-bottom {
+    border-bottom: 1px solid #CBCBCB;
+    padding-top: .5rem;
+    /*margin-bottom: 0.3rem;*/
+}
+
+.coupon-sub-title {
+    color: #CBCBCB;
+    font-size: .7rem !important;
+}
+
+.coupon-apply-btn {
+    background-color: transparent;
+    border: 2px solid #EF2A24;
+    color: #EF2A24;
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.9;
+    letter-spacing: 1px;
+}
+
+.coupon-apply-btn:hover,
+.coupon-apply-btn:active {
+    border: 2px solid #EF2A24;
+    transform: scale(1.05);
+}
+
+/*chk-payment-table*/
+.chk-payment-table td {
+    padding: 0.45rem !important;
+    color: #0000008a;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.chk-payment-table td h5 {
+    color: #0000008a;
+    font-size: 1.1rem;
+}
+
+.chk-payment-table .checkout-rupee {
+    font-size: .7rem;
+    padding-right: .9px;
+}
+
+.chk-payment-table h5 .checkout-rupee {
+    font-size: 1rem;
+}
+
+td.chk-price-details {
+    padding-bottom: .8rem !important;
+    font-size: .9rem;
+}
+
+.chk-border-top {
+    border-top: 1px solid #CBCBCB;
+}
+
+.chk-border-top td {
+    padding-top: .9rem !important;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 575.98px) {
+    .checkout-item-row .text-magenta {
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    a.remove-item {
+        margin-left: 1rem;
+        color: #0000008a !important;
+    }
+
+    .coupons-colm {
+        border: 0;
+    }
+    img.checkout-item-row-jumbotron-img{
+            width: 100%;
+    margin-left: 8px;
+    }
+    .coupon-apply-btn{
+        
+    }
+}
+
+@media (min-width: 1023.98px) and (max-width: 1026.98px) {
+    .about-us-text {
+        padding-left: 25px;
+    }
+
+    a.remove-item {
+        margin-left: 7rem;
+    }
+}

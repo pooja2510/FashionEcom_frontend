@@ -1,0 +1,234 @@
+/* FOOTER */
+
+footer {
+    background: url("../image/footer/baisa-banner-background.jpg") no-repeat;
+    background-size: cover;
+    opacity: .99;
+    padding-bottom: 85px;
+}
+
+.footer-container h1 {
+    font-size: 1rem;
+    padding-bottom: 6px;
+    color: #EF2A24;
+}
+
+h1.text-center.discover {
+    margin-left: -70px;
+}
+
+.footer-container .title-border-bottom {
+    padding-left: 10;
+    margin-top: 5rem;
+}
+
+
+
+.footer-container a {
+    text-decoration: none;
+}
+
+.footer-container p {
+    color: #0000008a;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.footer-container p:hover {
+    color: #EA2A24;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.social-icons {
+    margin: 20px 0px;
+}
+
+.footer-container .social-icons a {
+    color: #EC1D25;
+    font-size: 1.6rem;
+    padding-left: 15px;
+    padding-top: 28px;
+}
+
+.footer-container .social-icons a:hover {
+    font-size: 1.7rem;
+}
+
+.footer-menu-row {
+    display: grid;
+    justify-content: center;
+}
+
+input#useremail {
+    font-size: 13px;
+    opacity: 0.7;
+    padding-left: 8px;
+    border: 1px solid #0000004a;
+}
+
+.footer-news-submit-btn {
+    background-color: #EC1D25;
+    color: #ffffff;
+    border: 0;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    height: 2rem;
+    position: relative;
+    width: 75px;
+    left: 70%;
+    cursor: pointer;
+}
+
+.footer-news-submit-btn:focus {
+    outline: 0;
+    transform: scale(1.05);
+}
+
+.footer-email-input {
+    position: absolute;
+    width: 75%;
+    border-radius: 28px;
+    box-shadow: 0 0 0;
+    outline: 0;
+
+    height: 32.2px;
+}
+
+.payment-icons img {
+    width: 20%;
+}
+
+.payment-icons {
+    padding-top: 4rem;
+    padding-left: 2.5rem;
+    margin-bottom: -2rem;
+}
+
+address.copyright,
+address.copyright a {
+    text-align: center;
+    color: #EF2A24;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10rem;
+}
+
+.footer-sml {
+    display: none;
+}
+
+.toggle-footer .plus-icon {
+    transition: 0.3s transform ease-in-out;
+    font-size: 0.8rem;
+}
+
+.toggle-footer .collapsed .plus-icon {
+    transform: rotate(90deg);
+}
+
+.rolling-circle-mobile-link {
+    display: none;
+}
+
+.footer-heading {
+    display: none;
+}
+
+/* media queries */
+@media (max-width: 767.98px) {
+    .footer-lg {
+        display: none;
+    }
+
+    .footer-sml {
+        display: block;
+    }
+
+    .footer-sml a {
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .footer-sml li > a {
+        color: #0000008a !important;
+        font-size: 14px;
+
+    }
+
+    .footer-sml a:hover {
+        color: #EA2A24;
+    }
+
+    .footer-container .title-border-bottom {
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 575px) {
+    .footer-container .title-border-bottom {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    ul#customerService {
+        padding-left: 0;
+    }
+
+    ul#discover {
+        padding-left: 0;
+    }
+
+
+    .rolling-circle-link {
+        display: none;
+    }
+
+    .rolling-circle-mobile-link {
+        display: block;
+        color: #EA2A24;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .footer-heading {
+        display: block;
+    }
+
+    .footer-heading h5 {
+        font-size: 1rem;
+        margin-left: 0;
+        padding-top: 0;
+        color: #EA2A24;
+    }
+
+    .footer-container p {
+        font-size: 0.5rem;
+        margin-left: 0;
+        padding-top: 0;
+        color: #EA2A24;
+    }
+
+    p.subscribe-newletter {
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .payment-icons {
+        padding-top: 2rem;
+    }
+
+    address.copyright,
+    address.copyright a {
+        margin-top: 5rem;
+    }
+}

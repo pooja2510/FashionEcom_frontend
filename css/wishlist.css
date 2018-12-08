@@ -1,0 +1,89 @@
+.wishlist-container .red-text {
+    font-style: normal;
+    color: #E2382C;
+}
+
+.wishlist-item {
+    transition: padding-top 1s, background-color 0.5s;
+}
+
+.wishlist-item:hover {
+    background-color: #eadfcb;
+    padding-top: 8px;
+}
+
+.item-wishlist-col:hover span {
+    display: block;
+}
+
+span.close {
+    position: absolute;
+    top: 0;
+    left: 7%;
+    font-size: 30px;
+    display: none;
+}
+
+.wishlist-img {
+    -webkit-box-shadow: 3px 3px 6px 0px rgb(203, 194, 177);
+    -moz-box-shadow: 3px 3px 6px 0px rgb(203, 194, 177);
+    box-shadow: 3px 3px 6px 0px rgb(203, 194, 177);
+
+    width: 79%;
+    height: auto;
+    display: block;
+
+    margin: 0 auto;
+}
+
+.wishlist-text h1 {
+    font-size: 1rem !important;
+    margin: 0 auto;
+    font-family: inherit !important;
+    color: #0000008a;
+}
+
+.wishlist-text-colm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wishlist-text-colm h1 {
+    letter-spacing: .5px !important;
+}
+
+.wishlist-text-colm .rupee.price-off-text {
+    padding-right: 0 !important;
+    font-size: 1.1rem;
+}
+
+.wishlist-text-colm .wishlist-price {
+    font-size: 1rem !important;
+    letter-spacing: 0 !important;
+}
+
+.move-to-cart-btn-colm {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.move-to-cart-btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.1;
+    margin: 0;
+    font-family: inherit;
+    font-size: 0.8rem;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+}
+
+/* media queries */
+@media(max-width: 575px) {
+    span.close {
+        font-size: 23px;
+        left: 10%;
+    }
+}

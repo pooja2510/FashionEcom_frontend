@@ -1,0 +1,69 @@
+/*menu*/
+.blog-container a {
+    text-decoration: none;
+}
+
+.my-profile-edit-btn {
+    margin-top: 1.5rem;
+    margin-left: 0;
+}
+
+.my-profile-menu.card {
+    border: 0;
+}
+
+.my-profile-menu h5 {
+    color: #0000008a;
+    letter-spacing: .5px;
+    border-bottom: 1px solid #EF2A24;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    transition: font-size 2s;
+}
+
+.my-profile-menu h5:hover {
+    color: #EF2A24;
+    font-size: 1.3rem;
+}
+
+.my-profile-menu h5.active {
+    color: #EF2A24;
+}
+
+
+/*profile*/
+.my-profile-jumbotron {
+    background-color: #eadfcb;
+}
+
+.my-profile-jumbotron h3 {
+    color: #0000008a;
+    letter-spacing: .5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #EF2A24;
+}
+
+.my-profile-table td {
+    font-size: 15px;
+    color: #0000008a;
+    font-weight: 600;
+}
+
+/* media queries */
+.profile-row {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 575.98px) {
+    .my-profile-jumbotron h3 {
+        padding-top: 15px;
+    }
+}

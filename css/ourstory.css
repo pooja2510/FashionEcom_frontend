@@ -1,0 +1,129 @@
+/* About us */
+
+.about-us-container {
+    background-color: rgba(248, 239, 220, 0.69);
+}
+
+img.img-responsive.baisa-women-potrait {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    /* padding-right: 0px; */
+    margin-left: 10px;
+    /* border: rgba(186, 158, 102, 0.99); */
+}
+
+p.italic-text {
+    FONT-STYLE: italic;
+    /* font-weight: 100; */
+}
+
+.about-baisa1 p {
+    font-size: 0.9rem;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #0000008a;
+}
+
+/* Baisa Crafts */
+
+h1.outstory-section-mainheading {
+    color: #b7a480;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+   font-weight: 900;
+    text-transform: uppercase;
+}
+h3.outstory-section-subheading{
+   color: #b7a480;
+    opacity: 0.6;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-align: center;
+   font-weight: 900;
+}
+
+
+.about-baisa2 p {
+    font-size: 0.9rem;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #0000008a;
+}
+
+img.aboutbaisa2-image {
+    padding-top: 30px;
+    width: 98%;
+}
+
+
+
+/* baisa-team */
+img.team-img1 {
+    width: 95%;
+    border: 10px solid rgba(240, 228, 204, 0.99);
+}
+
+.team-baisa {
+    background-color: rgba(248, 239, 220, 0.69);
+}
+
+p.team-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-bottom: 0;
+    color: #0000008a;
+}
+
+p.team-details {
+    font-size: 0.9rem;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #0000008a;
+}
+
+a.team-linkedin-profile {
+    color: #0000008a;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    font-size: 80%;
+}
+
+
+/*Project Baisa - The Dream*/
+.project-baisa-container {
+    background-color: #ffffff;
+    margin-top: 5rem;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 767.98px) {
+    .about-baisa1 p {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+}
+@media (max-width: 575.98px){
+    .project-baisa-container{
+        margin-top: 0;
+    }
+   
+}

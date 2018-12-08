@@ -1,0 +1,450 @@
+/* top Breadcrumb */
+a.breadcrumb-link {
+    color: #0000008a;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+a.breadcrumb-link:hover {
+    color: #EA2A24;
+}
+
+
+.product-page-container .product-desc h1 {
+    display: inline-flex;
+    color: #EA2A24;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+.product-desc p {
+    color: #0000008a;
+    font-size: 15px;
+}
+
+.product-page-container .product-desc i {
+    font-style: normal;
+}
+
+.product-page-container .product-desc h1 .price-off-text {
+    color: #FF2515;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.product-page-container .product-desc p.checkout-text {
+    color: #0000008a;
+    border-bottom: 1px solid #BFBBB2;
+    padding-bottom: 0.7rem;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+
+.product-page-container .product-desc .discount-text-border {
+    border-bottom: 1px solid #BFBBB2;
+    padding-bottom: .2rem;
+}
+
+.product-page-container .product-desc .discount-text {
+    color: #0000008a;
+    margin-bottom: 2px;
+    margin-top: 6px;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.product-page-container .product-desc .view-more {
+    color: #0000008a;
+    float: right;
+    font-size: .7rem;
+    margin-bottom: 0.8rem;
+    border: 2px solid #EA2A24;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+input.pincode-form-text {
+    border: 0 0 1px 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    width: 10rem;
+    outline: none;
+}
+
+input.pincode-form-text:active {
+    outline: none;
+}
+
+.pincode-check {
+    background: transparent;
+    color: #0000008a;
+    font-size: 12px;
+    border: 2px solid #EA2A24;
+}
+
+.pincode-check:hover,
+.product-page-container .product-desc .view-more:hover {
+    background-color: #EA2A24;
+    outline: none;
+    border: 2px solid #EA2A24;
+    color: #fff;
+}
+
+/*Product-size*/
+.product-qty {
+    display: inline-block;
+}
+
+.product-size ul {
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.product-size li {
+    display: inline-block;
+    padding: 4px 7px;
+    background-color: #0000008a;
+}
+
+.product-size li:hover {
+    background-color: #EA2A24;
+}
+
+.product-btn-row li.active {
+    background-color: #EA2A24;
+}
+
+.product-btn-row .product-size a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.product-btn-row h6 {
+    color: #0000008a;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+/* size chart*/
+.size-chart-table th {
+    font-size: 12px;
+    color: #0000008a;
+    text-transform: uppercase;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #eadfcb;
+}
+
+.size-chart-table,
+.table th {
+    padding: .4rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 12px;
+    font-weight: 600;
+    color: #0000008a;
+}
+
+a.btn.btn-link.size-chart-btn {
+    text-transform: uppercase;
+    text-align: left;
+    color: #0000008a;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 3px;
+}
+
+a.btn.btn-link.size-chart-btn:hover {
+    color: #EA2A24;
+}
+
+/* Quantity buttons */
+
+button.btn.btn-default.product-qty-btn {
+    background-color: transparent;
+    border: 1px solid #EA2A24;
+    color: #EA2A24;
+    border-radius: 0;
+    padding: 1px 9px;
+}
+
+button.btn.btn-default.product-qty-btn:hover {
+    background-color: #EA2A24;
+    color: white;
+}
+
+span.product-qty-show {
+    padding: 3.6px 14px;
+    position: relative;
+    left: -3px;
+    top: 1.7px;
+    border: 1px solid #EA2A24;
+}
+
+/*btn*/
+
+.add-to-cart-btn .fa-shopping-cart {
+    color: #fff;
+    font-size: 1.1rem;
+    padding-left: 5px;
+}
+
+.add-to-cart-btn {
+    background-color: #EA2A24;
+}
+
+/*product details row*/
+/* tab-product details*/
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #BFBBB2;
+}
+
+/* Style the buttons inside the tab */
+.tab h3 {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab h3:hover,
+.tab h3.active {
+    color: #EA2A24;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tc-one {
+    padding: 50px 280px;
+    text-align: justify;
+}
+
+.tc-two {
+    padding: 50px 250px;
+}
+
+/* tab-content-styling */
+.desc-shipping {
+    color: #0000008a;
+    margin-bottom: 2px;
+    margin-top: 6px;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.product-details-row h3 {
+    color: #0000008a;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Details & shipping collapse */
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+    width: 97%;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #BFBBB2;
+}
+
+
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #0000008a;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+
+.demo {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+
+
+/*slider*/
+.similar-product-container img {
+    width: 95%;
+    transition: transform 0.5s ease-in-out;
+    border: 8px solid #eadfcb;
+}
+
+.similar-product-container img:hover {
+    transform: scale(1.07);
+}
+
+svg.svg-inline--fa.fa-chevron-left.fa-w-10.similarprod-lefticon {
+    color: #EA2A24;
+    margin-left: -5rem;
+    font-size: 30px;
+}
+
+svg.svg-inline--fa.fa-chevron-right.fa-w-10.similarprod-righticon {
+    color: #EA2A24;
+    margin-right: -5rem;
+    font-size: 30px;
+}
+
+.similar-products-slider-next {
+    right: 0;
+    width: 1%;
+}
+
+.similar-products-slider-prev {
+    width: 1%
+}
+
+/* x-zoom */
+img.xzoom {
+    position: absolute;
+    left: 8rem;
+}
+
+.xzoom-thumbs-two {
+    display: none;
+}
+
+.thumb-one-icon,
+.thumb-two-icon {
+    color: #EA2A24;
+}
+
+/* mobile view slider */
+.product-slider-mobileview {
+    display: none;
+}
+
+@media(max-width: 991px) {
+    .similar-products-slider-next {
+        right: 0;
+    }
+
+    .similar-products-slider-prev {
+        left: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section-container {
+        margin-top: 5rem;
+    }
+
+    .xzoom-thumbs {
+        display: none;
+    }
+
+
+    img.xzoom {
+        position: static;
+        display: none;
+    }
+
+    .product-btn-row h6 {
+        margin-top: 20px;
+    }
+
+    .in-stock-button {
+        margin-left: 25px;
+    }
+
+    .tc-one {
+        padding: 50px 10px;
+    }
+
+    .tc-two {
+        padding: 50px 10px;
+    }
+
+    .product-details-row {
+        margin-left: 1px;
+    }
+
+    svg.svg-inline--fa.fa-chevron-left.fa-w-10.similarprod-lefticon {
+        /* display: none; */
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    svg.svg-inline--fa.fa-chevron-right.fa-w-10.similarprod-righticon {
+       /* display: none; */
+        margin-right: 0;
+        font-size: 20px;
+        margin-left: 24px;
+    }
+
+    .product-slider-mobileview {
+        display: block;
+    }
+
+    .product-mobile-left,
+    .product-mobile-right {
+        font-size: 25px;
+    }
+    .product-mobile-left{
+        padding-left: 20px;
+    }
+    .tc-two ul{
+        padding-left: 10px;
+    }
+    .desc-shipping{
+        text-align: left;
+    }
+}

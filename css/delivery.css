@@ -1,0 +1,133 @@
+/* common */
+.container.delivery-container {
+    margin-top: -50px;
+}
+
+.delivery-container h2 {
+    margin-top: 55px;
+    margin-bottom: 30px;
+    color: #0000008a;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.jb1 .jumbotron,
+.jb2 .jumbotron {
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(229, 225, 212, .5);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(229, 225, 212, .5);
+    box-shadow: 1px 1px 5px 1px rgba(229, 225, 212, .5);
+}
+
+.delivery-container .payment-btn {
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    /* line-height: 1.6; */
+    padding: 6px 1rem;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    background-color: #EF2A24;
+    border: 0;
+}
+
+.delivery-container .payment-btn:hover {
+    transform: scale(1.05);
+    background-color: #EA2A24;
+    outline: none;
+}
+
+.delivery-container .payment-btn:focus {
+    outline: none;
+}
+
+
+
+
+
+/* Delivery Address */
+.delivery-container .fa-map-marker-alt {
+    color: #EF2A24;
+    font-size: 18px;
+}
+
+.jb1 .jumbotron {
+    margin-top: -15px;
+    background-color: #eadfcb;
+    padding-top: 10px 10px;
+    padding-right: -50px;
+    box-shadow: 8x 8px #EEEDEB;
+    border-radius: 0;
+}
+
+.delivery-container .address-btn {
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0000008a;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.delivery-container .add-new-address {
+    background-color: #EF2A24;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 11px;
+    border-radius: 0;
+    text-transform: capitalize;
+}
+
+
+
+
+/* Delivery Specifications */
+.jb2 .jumbotron {
+    margin-top: -15px;
+    background-color: #eadfcb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    border-radius: 0;
+
+}
+
+.jb2 p,
+.delivery-container .chk-payment-table td {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #0000008a;
+}
+
+p.free-shipping {
+    font-weight: 500;
+    font-size: 14px;
+    color: #0000008a;
+}
+
+.delivery-container .chk-payment-table td .checkout-rupee {
+    font-size: 18px;
+}
+
+.chk-payment-table td h5 {
+    color: #0000008a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* media queries */
+@media (max-width: 575.98px){
+    .delivery-container h2{
+        text-align: center;
+    }
+    .jb1 .jumbotron{
+        margin: 1rem;
+        text-align: center;
+    }
+    .jb2 .jumbotron{
+       margin: 1rem; 
+    }
+}
